@@ -39,13 +39,13 @@
                 <div id="userPanel" class="headercolumn">
                     <a href="#" class="userinfo radius2">
                         <img src="<?=base_url();?>images/avatar.png" alt="" class="radius2" />
-                        <span><strong><?= $this->session->userdata('usuario ') ?></strong></span>
+                        <span><strong><?= $this->session->userdata('usuario') ?></strong></span>
                     </a>
                     <div class="userdrop">
                         <ul>
-                            <li><a href="#">Profile</a></li>
-                            <li><a href="#">Account Settings</a></li>
-                            <li><a href="index.html">Logout</a></li>
+                            <li><a href="#">Perfil</a></li>
+                            <li><a href="#">Pay</a></li>
+                            <li><a href="index.html">Cerrar Sesion</a></li>
                         </ul>
                     </div>
                 </div>
